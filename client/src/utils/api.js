@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 // client/src/utils/api.js
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://server-production-168f.up.railway.app/api'
 
 // User API calls
 export const loginUser = async (loginData) => {
